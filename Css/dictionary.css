@@ -1,0 +1,27 @@
+.main table{
+  border-collapse: collapse;
+  border:3px solid green;
+  margin-top: 10px;
+}
+
+.main  td{
+  border: 3px solid green;
+}
+
+#translator{
+  width: 150px;
+  height:150px;
+  background: none repeat scroll 0% 0% rgba(0,0,0,0.5);
+  position: fixed;
+  display: none;
+  top: 45%;
+  left: 45%;
+  z-index: 999;
+  text-align: center;
+  color: white;
+  font-family: Segoe UI;
+  font-size: 25px;
+  font-weight: 100;
+  padding: 10px;
+  border-radius: 85px;
+}
